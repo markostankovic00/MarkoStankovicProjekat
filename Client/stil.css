@@ -1,0 +1,79 @@
+.MainContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+table, tr, th, td
+{
+    border: 1px solid black;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+.Info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rbox
+{
+    display: flex;
+}
+
+
+.btnPrikazi
+{
+    background-color: crimson;
+}
+
+.btnZakazi
+{
+    background-color: darkorange;
+}
+
+
+.btnOtkazi
+{
+    background-color: lightgreen;
+}
+
+.btnZameni
+{
+    background-color: rgb(216, 204, 36);
+}
+
+body 
+{
+    background-color: #bedae5;
+    background-image:url('gymtheme.png');
+
+}
+
+
+.containerTable
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ormariciKontejner
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.slot
+{
+    border: 1px solid black;
+    flex: 1 1 10px;
+    margin: 5px;
+    text-align: center;
+}
